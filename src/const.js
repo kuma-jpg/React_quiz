@@ -1,6 +1,6 @@
 export const ROUTES = 
 {
-    HOME: '/React_Quiz/',
+    HOME: '/',
     QUIZ: '/quiz',
     RESULT: '/result',
 };
