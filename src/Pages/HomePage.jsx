@@ -4,10 +4,10 @@ import { ROUTES } from "../const"
 export default function HomePage() {
     return (
         <>
-            <h1>Quiz App</h1>
-            <p>Welcome to the Quiz App! Test your knowledge with our quizzes.</p>
+            <h1>クイズ</h1>
+            <p>君は全問正解できるかな？</p>
             <Link to={ROUTES.QUIZ}>
-                <button>Start Quiz</button>
+                <button>クイズを始める</button>
             </Link>
         </>
     )
